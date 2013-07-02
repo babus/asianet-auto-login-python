@@ -16,7 +16,8 @@ ___
 ###Setup###
 #####Windows#####
 1. Get the zip and extract to any directory.<code>-u [username] -p [password]</code>
-2. "At login, At task creation/modification" triggers will be enough with repeat every 5 minutes.
+2. Use Windows Task Schedular to schedule the task targetting `.exe`. 
+3. "At login, At task creation/modification" triggers will be enough with repeat every 5 minutes.
 
 #####Linux#####
 1. Download `src/asianet_login.py`.
